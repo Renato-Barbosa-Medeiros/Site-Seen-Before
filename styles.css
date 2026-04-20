@@ -1,0 +1,46 @@
+body{
+    background-color: cadetblue;
+}
+
+header {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+
+.header-right {
+    display: flex;
+    margin-left: auto;
+}
+
+a {
+    font-size: large;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content-box {
+    display: flex; 
+    align-items: center;
+}
+
+.content-box p {
+    max-width: 35%;
+    font-size: x-large;
+}
+
+.content-box img {
+    height: 500px;
+    width: 500px;
+    padding-top: 5%;
+}
+
+.content-box p, .content-box img {
+    margin: auto;
+}
+
+
+
+
+
